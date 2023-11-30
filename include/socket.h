@@ -42,9 +42,6 @@ static SOCKET Socket = INVALID_SOCKET;
 inline int init_socket();
 inline void quit_socket();
 
-inline int create_client();
-inline int create_server();
-
 inline void send_message(const char *sendbuf);
 inline void recv_message(const char *recvbuf);
 
